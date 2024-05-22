@@ -1,0 +1,68 @@
+/*
+.color1 { #000706 } black;
+.color2 { #00272d } dark;
+.color3 { #134647 } mid;
+.color4 { #0c7e7e } low;
+*/
+
+
+body{
+    background-color: #134647;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+}
+
+#container{
+    height: 80px;
+    width: 100%;
+    background-color: #00272d;
+    color: #0c7e7e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0%;
+}
+
+#container2{
+    height: 600px;
+    width: 600px;
+    background-color:#ffffff;
+    border-radius: 15px;
+    display: flex;
+}
+
+.insert{
+    height: 300px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#CEP{
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    border-color: #0c7e7e;
+}
+
+#SUB{
+    margin-top: 15px;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+#reslt{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+#exData {
+    
+  }
