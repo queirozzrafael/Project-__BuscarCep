@@ -11,20 +11,28 @@
         <div id="container"><h1>BUSCAR CEP</h1></div>
             <div id="container2">
                 <div class="insert">
-                    <h2>Insira seu Cep</h2>
                     <input type="number" id="CEP">
-                        <button onclick="searchCep()" id="SUB"></button>
-                        <section id="reslt">
-                            <ul id="exData">
-                                <li id="excep">CEP</li>
-                                <li id="exlog">LOGRADOURO</li>
-                                <li id="exbai">BAIRRO</li>
-                                <li id="exmun">MUNICÍPIO</li>
-                                <li id="exest">ESTADO</li>
-                                <li id="exibg">IBGE</li>
-                                <li id="exddd">DDD</li>
+                        <button onclick="searchCep()" id="SUB">BUSCAR</button>
+                    <button onclick="saveCep()" id="SUB">SALVAR</button>
+                </div>
+                        <div class="reslt">
+                           <ul id="exData">
+                                CEP
+                                <li id="excep"></li>
+                                LOGRADOURO
+                                <li id="exlog"></li>
+                                BAIRRO
+                                <li id="exbai"></li>
+                                MUNICÍPIO
+                                <li id="exmun"></li>
+                                ESTADO
+                                <li id="exest"></li>
+                                IBGE
+                                <li id="exibg"></li>
+                                DDD
+                                <li id="exddd"></li>
                             </ul>
-                        </section>
+                        </div>
                 </div>      
             </div>
 

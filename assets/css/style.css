@@ -28,20 +28,37 @@ body{
 }
 
 #container2{
-    height: 600px;
+    margin-top: 55px;
+    height: 680px;
     width: 600px;
     background-color:#ffffff;
     border-radius: 15px;
     display: flex;
-}
-
-.insert{
-    height: 300px;
-    width: 600px;
-    display: flex;
     align-items: center;
     flex-direction: column;
 }
+
+.insert{
+    margin-top: 15px;
+    height: 250px;
+    width: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #0c7e7e;
+}
+
+
+.reslt{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    width: 550px;
+    background-color: #0c7e7e;
+   }
 
 #CEP{
     height: 30px;
@@ -57,12 +74,7 @@ body{
     border-radius: 5px;
 }
 
-#reslt{
- display: flex;
- justify-content: center;
- align-items: center;
-}
 
-#exData {
-    
-  }
+li {
+    list-style-type: none;
+}
